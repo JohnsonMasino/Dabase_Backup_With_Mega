@@ -6,6 +6,7 @@ DATE=$(date +"%Y-%m-%d_%H-%M-%S")
 
 DB_NAMES=("db1" "db2" "db3" "db4" "db5")
 
+# Function
 backup_database() {
         local DB_NAME=$1
         local BACKUP_FILENAME="${DB_NAME}_${DATE}.sql"
